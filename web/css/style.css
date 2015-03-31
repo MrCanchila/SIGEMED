@@ -1,0 +1,102 @@
+*{
+	padding: 0px;
+	margin:  0px;
+}
+
+body{
+       background: url(../img/bg.jpg);
+}
+.container-fluid {
+    
+}
+#logo, #menu, #idioma {
+	height: 97px;
+	padding-top: 15px;
+	background: #FFF;
+}
+.datos{
+    transition: background .3s ease-in-out
+}
+#submenu{
+	padding-top: 15px;
+
+}
+#submenu li{
+	display: inline;  
+
+}
+#submenu li a{
+	font-family: Arial;
+	font-size: 1em;
+	color: #3182e6;
+	text-decoration: none;
+	float: left;
+	padding: 10px;
+}
+#submenu li a:hover {
+	color: #7db701;
+}
+
+#desplegable :hover {
+	color: #7db701;
+}
+#desplegable {
+        font-family: Arial;
+	font-size: 1em;
+	color: #3182e6;
+        cursor: pointer;
+        padding-top: 25px;
+}
+.datos {
+	height: 180px;
+	background: #37afe6;
+        font-family: Arial;
+	font-size: 1em;
+	color: #FFF;
+}
+#footerder {
+    font-family: Arial;
+    font-size: 1em;
+    color: #3182e6;
+}
+#footerder, #footerizq {
+   margin-top: 2px;
+}
+#footer {
+    height: 32px;
+    background: url(../img/footer.png);
+  
+}
+
+.circulo {
+    background: #FFF;
+
+}
+.icon {
+    color: #000;
+    font-size: 40px;
+    margin-top: 25px;
+}
+.icolo {
+    font-family: Arial;
+    font-size: 1em;
+    color: #3182e6;
+    cursor: pointer;
+}
+.edu {
+    font-size: 50px;
+    margin-top: 38px;
+}
+.btnmod {
+    background: #FFF;
+    padding: 5px 5px 5px 5px;
+    border: 2px solid #7db701;
+}
+.btnmodal {
+    padding: 5px 5px 5px 5px;
+    border: 2px solid #7db701;
+    background: #7db701;
+}
+.registarse {
+    width: 70%;
+}
